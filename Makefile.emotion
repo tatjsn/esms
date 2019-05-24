@@ -1,4 +1,0 @@
-dist/%.js: src/%.js
-	node_modules/.bin/rollup -c -i $< -e react | sed -E 's|from"react"|from"./react.js"|' > $@
-
-all: dist/emotion-core.js
