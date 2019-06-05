@@ -1,4 +1,4 @@
 import React from 'react';
 export default React;
-const { createContext, createElement, forwardRef, Component, Fragment } = React;
-export { createContext, createElement, forwardRef, Component, Fragment };
+const { Children, createRef, Component, PureComponent, createContext, forwardRef, lazy, memo, useCallback, useContext, useEffect, useImperativeHandle, useDebugValue, useLayoutEffect, useMemo, useReducer, useRef, useState, Fragment, StrictMode, Suspense, createElement, cloneElement, createFactory, isValidElement, version, unstable_ConcurrentMode, unstable_Profiler, __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } = React;
+export { Children, createRef, Component, PureComponent, createContext, forwardRef, lazy, memo, useCallback, useContext, useEffect, useImperativeHandle, useDebugValue, useLayoutEffect, useMemo, useReducer, useRef, useState, Fragment, StrictMode, Suspense, createElement, cloneElement, createFactory, isValidElement, version, unstable_ConcurrentMode, unstable_Profiler, __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED };
