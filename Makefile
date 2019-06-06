@@ -7,6 +7,9 @@ dist/lit-connect.js: src/lit-connect.js
 dist/react-spring.js: node_modules/react-spring/web.js
 	node_modules/.bin/rollup -c -i $< -e react | sed -E 's|from"react"|from"./react.js"|' > $@
 
+dist/react-dom.js: src/react-dom.js
+	node_modules/.bin/rollup -c -i $< -e react | sed -E 's|from"react"|from"./react.js"|' > $@
+
 dist/%.js: src/%.js
 	node_modules/.bin/rollup -c -i $< -o $@
 
