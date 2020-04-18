@@ -7,7 +7,7 @@
     "/dist"
   ],
   "scripts": {
-    "build": "make && make -f Makefile.emotion"
+    "build": "make"
   },
   "keywords": [],
   "author": "tatjsn <tatjsn@gmail.com> (https://github.com/tatjsn/)",
@@ -24,7 +24,7 @@
     "rollup-plugin-terser": "^4.0.2"
   },
   "dependencies": {
-    "lit-element": "^2.1.0",
+    "lit-element": "^2.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-spring": "^8.0.21"
